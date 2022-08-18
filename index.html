@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calc-container">
+        <div class="display">0</div>
+        <div class="btn-container">
+            <button onclick="allClear()" class="ac">AC</button>
+            <button onclick="operator(event)" class="operator">/</button>
+            <button onclick="collectBtns(event)" class="num">7</button>
+            <button onclick="collectBtns(event)" class="num">8</button>
+            <button onclick="collectBtns(event)" class="num">9</button>
+            <button onclick="operator(event)" class="operator">*</button>
+            <button onclick="collectBtns(event)" class="num">4</button>
+            <button onclick="collectBtns(event)" class="num">5</button>
+            <button onclick="collectBtns(event)" class="num">6</button>
+            <button onclick="operator(event)" class="operator">-</button>
+            <button onclick="collectBtns(event)" class="num">1</button>
+            <button onclick="collectBtns(event)" class="num">2</button>
+            <button onclick="collectBtns(event)" class="num">3</button>
+            <button onclick="operator(event)" class="operator">+</button>
+            <button onclick="collectBtns(event)" class="num zero">0</button>
+            <button onclick="collectBtns(event)" class="dot">.</button>
+            <button onclick="equals(event)" class="operator">=</button>
+        </div>
+    </div>
+</body>
+<script src="javascript.js"></script>
+</html>
